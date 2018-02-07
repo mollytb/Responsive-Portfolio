@@ -237,27 +237,48 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media only screen and (max-width: 980px) {
-  /* For desktop: */
-  [class*="col-"] {
-      width: ;
-  }
 
-@media only screen and (max-width: 768px) {
-  /* For tablets: */
-  [class*="col-"] {
-       width: 100%;
-  }
 
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 380px) 
+{
   /* For mobile phones: */
-  [class*=container] {
+    .container {
+      width: 100;
+     }
+
+    #masthead {
+      width: 100;
+      position: static;
+
+     }
+
+    footer {
+      clear: both;
+      width: 100;
+      position: static;
+    }
+
+    #contact-form ul {
+      width: 100;
+      clear:
+    }
+
+    .sidebar {
+      width: 100;
+      margin: 0,0, 20px,0;
+      float: left;
+      max-width: 100%;
+    }
+    #logo {
       width: 100%;
-  }
-  #masthead:{
-    position: static;
-    
-  }
-  .footer {
-    position: static;
+    }
+    #conect {
+
+      width: 100%;
+    }
+    nav {
+      width: 100%;
+      align: center;
+    }
+
   }
